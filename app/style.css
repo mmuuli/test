@@ -1,0 +1,187 @@
+/* Roboto font import */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* General styling rules */
+body {
+  margin: 0;
+  min-width: 600px;
+}
+
+a { 
+  font-family: 'Roboto', sans-serif; 
+  font-size: 25px;
+}
+
+h1, h2, h3, h4, p, b {
+  font-family: 'Open Sans', sans-serif; 
+}
+
+h1 {
+  font-size: 64px;
+  color: #781814;
+}
+
+p {
+  font-size: 24px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+
+/* Nav bar styling */
+nav {
+  display: flex;
+  flex-direction: row;
+  height: 90px;
+  background-color: #a14743;
+  margin-bottom: 0;
+}
+
+.links {
+  display: flex;
+  width: 90%;
+  min-width: 500px;
+  max-width: 800px;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: auto;
+}
+
+.links a {
+  margin: auto 0;
+  text-decoration: none;
+  color: white;
+}
+
+.links a:hover {
+  font-weight: 900;
+}
+
+
+
+/* Showcase container styling */
+.showcase {
+  display: flex;
+  margin: 0;
+  width: 100%;
+  min-width: 500px;
+  height: 800px; 
+  background-image: url("https://cdn.glitch.com/fbfc41bc-63c2-4d5d-add0-ea97f2735b3f%2Fclouts.png?v=1613932899186");
+  background-size: 100% 100%;
+}
+
+.showcase h1 {
+  margin: auto;
+  text-shadow: 0 0 3px black;
+  color: white;
+  font-size: 96px;
+  user-select: none;
+}
+
+
+/* Text paragraph class */
+.paragraph {
+  display: block;
+  min-width: 400px;
+  width: 48%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+/* Download section styling */
+.download {
+  display: block;
+  overflow: auto;
+  margin-top: 200px;
+  width: 100%;
+  min-width: 500px;
+  height: 800px;
+  background-image: url("https://cdn.glitch.com/fbfc41bc-63c2-4d5d-add0-ea97f2735b3f%2Fa_man_watching_his_phone.png?v=1613934907417");
+  background-size: 100% 100%;
+}
+
+.download_now {
+  display: block;
+  float: top;
+  top: 100px;
+  margin: 100px auto;
+  height: 98px;
+  width: 448px;
+  border-radius: 40px;
+  border: none;
+  color: white;
+  font-size: 50px;
+  background-color: #a14743;
+}
+
+.app_store_cont {
+  display: flex;
+  margin-top: 200px;
+  justify-content: space-evenly;
+}
+
+.apple_store {
+  width: 300px;
+  height: 75px;
+  background-color: transparent;
+  border: none;
+  background-image: url("https://cdn.glitch.com/fbfc41bc-63c2-4d5d-add0-ea97f2735b3f%2Fapple.png?v=1613936364849");
+  background-size: 100% 100%;
+}
+
+.android_store {
+  width: 300px;
+  height: 75px;
+  border: none;
+  background-color: transparent;
+  background-image: url("https://cdn.glitch.com/fbfc41bc-63c2-4d5d-add0-ea97f2735b3f%2Fgoogle-play-badge.png?v=1613936551648");
+  background-size: 100% 100%;
+}
+
+
+/* About us and news info container */
+.info_container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+}
+
+
+/* Footer styling */
+footer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 200px;
+  justify-content: space-between;
+  background-color: #a14743;
+  width: 100%;
+  height: 90px;
+  line-height: 1;
+}
+
+.contact { margin-left: 10px; }
+footer p {
+  font-size: 14px;
+}
+
+.social_media {
+  display: flex;
+  margin-top: 0;
+}
+
+.social_media img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+footer .copyright {
+  height: 14px;
+  margin-top: auto;
+  margin-right: 10px;
+}
